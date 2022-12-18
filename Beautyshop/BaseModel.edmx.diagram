@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="113ee8f08744485b9fa16dfc94e9c76b" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="beautyshopModel.ID_Категории" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="beautyshopModel.ID_Клиента" Width="1.5" PointX="7.375" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="beautyshopModel.ID_Мастера" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="beautyshopModel.ID_Услуги" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="beautyshopModel.sysdiagrams" Width="1.5" PointX="7.625" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="beautyshopModel.Запись_на_посещение" Width="1.5" PointX="5.25" PointY="2.625" IsExpanded="true" />
+        <AssociationConnector Association="beautyshopModel.FK_ID_Мастера_ID_Категории" ManuallyRouted="false" />
+        <AssociationConnector Association="beautyshopModel.FK_ID_Услуги_ID_Категории" ManuallyRouted="false" />
+        <AssociationConnector Association="beautyshopModel.FK_Запись_на_посещение_ID_Категории" ManuallyRouted="false" />
+        <AssociationConnector Association="beautyshopModel.FK_Запись_на_посещение_ID_Клиента" ManuallyRouted="false" />
+        <AssociationConnector Association="beautyshopModel.FK_Запись_на_посещение_ID_Мастера" ManuallyRouted="false" />
+        <AssociationConnector Association="beautyshopModel.FK_Запись_на_посещение_ID_Услуги" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
